@@ -1,0 +1,26 @@
+{
+  "name": "jaguares-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for Jaguares CSGO platform that manage many things and integrations with our servers and website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JaguaresCSGO/jaguares-discord-bot.git"
+  },
+  "author": "Henrique Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaguaresCSGO/jaguares-discord-bot/issues"
+  },
+  "homepage": "https://github.com/JaguaresCSGO/jaguares-discord-bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "cron": "^1.8.2",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.1.0",
+    "http-request": "^0.7.0"
+  }
+}
